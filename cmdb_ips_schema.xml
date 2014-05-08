@@ -1,0 +1,19 @@
+<schema>
+  <database dbname="audcaixa_test" table="cmdb_ips" user="dsusin" password="dsusin" />
+  <csv separator=";" skiprows="1"/>
+  <fields>
+    <c0 fieldname="descripcion" datatype="text" included="1" />
+    <c1 fieldname="estado" datatype="numeric" included="1" />
+    <c2 fieldname="id_instancia" datatype="text" included="1" />
+    <c3 fieldname="ip" datatype="text" included="1" />
+    <c4 fieldname="fqdn" datatype="text" included="1" />
+    <c5 fieldname="ipv4" datatype="boolean" included="1" />
+    <c6 fieldname="nivel_1" datatype="text" included="1" />
+    <c7 fieldname="nivel_2" datatype="text" included="1" />
+    <c8 fieldname="nivel_3" datatype="text" included="1" />
+    <c9 fieldname="nombre_reservado" datatype="text" included="1" />
+    <c10 fieldname="sufijo" datatype="text" included="1" />
+    <c11 fieldname="vlan_id" datatype="numeric" included="1" />
+    <c12 fieldname="estado_literal" datatype="text" included="1" />
+  </fields>
+</schema>
