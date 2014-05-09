@@ -1,0 +1,11 @@
+<schema>
+  <database dbname="mydb" table="my_table" user="username" password="pwd" />
+  <csv separator=";" skiprows="1"/>
+  <fields>
+    <!-- c# where # is the index on the csv for the field -->
+    <c0 fieldname="desc" datatype="text" included="1" />
+    <c1 fieldname="state" datatype="boolean" included="1" />
+    <c2 fieldname="id" datatype="numeric" included="1" />
+    <c3 fieldname="date" datatype="timestamp" included="1" />
+  </fields>
+</schema>
