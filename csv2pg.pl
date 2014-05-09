@@ -95,3 +95,4 @@ while(<$fh>){
     
 }
 
+$conn->disconnect();
