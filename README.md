@@ -11,3 +11,5 @@ It's slow as it uses separate inserts instead of copy.
 
 Copy should be used in cases of many rows (>100.000?), having in mind
 its drawbacks.
+
+Usage: perl csv2pg.pl template.xml data.csv
